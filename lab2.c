@@ -2,7 +2,8 @@
 #include <math.h>
 void qwrt(int a, int b, int c)
 {
-    int d, x1, x2;
+    int d;
+    double x1, x2;
     d = b * b - 4 * a * c;
 	if (d < 0)
     {
