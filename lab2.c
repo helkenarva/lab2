@@ -13,6 +13,12 @@ void qwrt(int a, int b, int c)
         x1 = -b/(2*a);
         printf ("\nRoot: %d\n", x1);
     }
+	 else if( d > 0 )
+    {
+        x1 = (-b + sqrt(d))/(2*a);
+        x2 = (-b - sqrt(d))/(2*a);
+        printf ("\nRoots: %d %d\n", x1, x2);
+    }
 
 }
 
