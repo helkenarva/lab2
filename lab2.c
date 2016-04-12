@@ -13,13 +13,13 @@ void qwrt(double a, double b, double c)
 	else if (d == 0)
 	{
 		x1 = -b / (2 * a);
-		printf("\nRoot: %Lf\n", x1);
+		printf("\nRoot: %lf\n", x1);
 	}
 	else if (d > 0)
 	{
 		x1 = (-b + sqrt(d)) / (2 * a);
 		x2 = (-b - sqrt(d)) / (2 * a);
-		printf("\nRoots: %Lf %Lf\n", x1, x2);
+		printf("\nRoots: %lf %lf\n", x1, x2);
 	}
 }
 
@@ -27,7 +27,7 @@ int main()
 {
 	double a, b, c;
 	printf("Enter a, b, c: \n");
-	scanf("%Lf%Lf%Lf", &a, &b, &c);
+	scanf("%lf%lf%lf", &a, &b, &c);
 	qwrt(a, b, c);
 	return 0;
 }
